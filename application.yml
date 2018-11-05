@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: spring-cloud-config-zzh-dev
+---
+spring:
+  profiles: test
+  application:
+    name: spring-cloud-config-zzh-test
+#保存编码为utf-8的形式#
