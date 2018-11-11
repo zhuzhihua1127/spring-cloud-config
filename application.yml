@@ -7,13 +7,9 @@ spring:
     profiles: dev #开发环境
     application:
       name: spring-cloud-st-dev
-disf:
-   k1: dev-testk1
 ---
 spring:
     profiles: test #测试环境
     application:
         name: spring-cloud-st-test
         # 保存UTF-8格式
- disf:
-   k1: test-testk1
